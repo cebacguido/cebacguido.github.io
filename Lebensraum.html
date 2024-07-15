@@ -1,1 +1,95 @@
-
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lebensraum</title>
+    <style>      
+        body {         
+            background-color: #4FC7FF;
+            font-family: Arial, sans-serif;
+        }
+        .navi {
+            background-color: #003366; /* Blau der Überschrift */
+            padding: 10px;
+            display: flex;
+            justify-content: flex-start; /* Buttons nach links */
+        }
+        
+        .navi button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #00FF00; /* Grün */
+            color: #003366; /* Blau */
+            border: none;
+            border-radius: 5px;
+        }
+        
+        .navi button:hover {
+            background-color: #FFFFFF; /* Weißer Hover-Effekt */
+            color: #003366; /* Blau */
+        }
+        
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .content h1 {
+            color: #003366; /* Blau der Überschrift */
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        .Lebensraum-item {
+            background-color: #FFFFFF;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 800px;
+            text-align: left;
+        }
+        
+        .Lebensraum-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .Lebensraum-item h2 {
+            color: #003366;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .Lebensraum-item p {
+            color: #333;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    </style>       
+</head>
+<body>
+    <div class="navi">
+        <button onclick="window.location.href='index.html'">Home</button>
+        <button onclick="window.location.href='Lebensraum.html'">Lebensraum</button>
+        <button onclick="window.location.href='Lebensraum.html'">Lebensraum</button>
+    </div>
+    <div class="content">
+              
+        <div class="Lebensraum-item">
+            <h2>Wissenswertes zum Lebensraum</h2>
+            <p>Die männlichen Schnabeltiere gehören zu den wenigen giftigen Säugetieren. Sie haben rund 15 Millimeter lange Giftsporne in Knöchelhöhe an den Hinterbeinen. Diese scheiden ein Gift aus, das in Drüsen im Hinterleib produziert wird. Weibliche Tiere haben bei ihrer Geburt ebenfalls Spornanlagen, verlieren diese jedoch im ersten Lebensjahr. Da das Gift nur während der Paarungszeit produziert wird, nimmt man an, dass es in erster Linie bei Kämpfen um ein paarungsbereites Weibchen eingesetzt wird.</p>
+        </div>
+        
+    </div>   
+</body>
+</html>
