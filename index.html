@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hier entstehen die wahren Wahrheiten!</title>
+    <style>      
+        body {         
+            background-color: #4FC7FF;
+            font-family: Arial, sans-serif;
+        }
+
+        .navi {
+            background-color: #003366; /* Blau der Überschrift */
+            padding: 10px;
+            display: flex;
+            justify-content: flex-start; /* Buttons nach links */
+        }
+        
+        .navi button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #00FF00; /* Grün */
+            color: #003366; /* Blau */
+            border: none;
+            border-radius: 5px;
+        }
+        
+        .navi button:hover {
+            background-color: #FFFFFF; /* Weißer Hover-Effekt */
+            color: #003366; /* Blau */
+        }
+        
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .content h1 {
+            color: #003366; /* Blau der Überschrift */
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        .content p {
+            color: #333;
+            font-size: 18px;
+            max-width: 800px;
+            margin-bottom: 20px;
+        }
+        
+        .content img {
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .text {
+            color: #35FF4C;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>       
+</head>
+<body>
+    <div class="navi">
+        <button onclick="window.location.href='index.html'">Home</button>
+        <button onclick="window.location.href='news.html'">News</button>
+        <button onclick="window.location.href='kontakt.html'">Kontakt</button>
+    </div>
+    <div class="content">
+        <h1>Willkommen auf unserer Seite!</h1>
+        <p>Hier entstehen die wahren Wahrheiten! Wir sind Ihre vertrauenswürdige Quelle für die neuesten und erstaunlichsten Nachrichten aus der ganzen Galaxie.</p>
+        <p>Besuchen Sie unsere <a href="news.html" style="color:#003366; text-decoration:underline;">News</a> Seite für aktuelle Ereignisse und Geschichten, die Sie überraschen werden.</p>
+        <img src="welcome_image.jpg" alt="Willkommensbild">
+        <p class="text">In einer Welt, in der Informationen im Überfluss vorhanden sind, ist die Unterscheidung zwischen Wahrheit und Lüge oft eine Herausforderung. Wir helfen Ihnen dabei, die Wahrheit zu finden.</p>
+    </div>   
+</body>
+</html>
